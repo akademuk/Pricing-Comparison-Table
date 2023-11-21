@@ -426,7 +426,7 @@ input:checked + .switch-circle {
 .pricing-box_card {
   width: calc(33.33% - 32px);
   display: flex;
-  min-height: 576px;
+  min-height: 520px;
   padding: 41px 31px;
   flex-direction: column;
   align-items: flex-start;
