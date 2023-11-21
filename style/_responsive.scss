@@ -1,0 +1,32 @@
+@media (max-width: 1200px) {
+    .pricing-table {
+        padding: 0 32px;
+    }
+
+    .pricing-box {
+        flex-wrap: wrap;
+
+        .pricing-box_card {
+            min-width: 290px;
+            width: 100%;
+            flex: 1;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .pricing-table {
+        h1 {
+            color: $color-black;
+            font-size: 32px;
+            font-weight: 500;
+            margin-bottom: 8px;
+        }
+    }
+
+    .toggle  {
+        p {
+            display: none;
+        }
+    }
+}

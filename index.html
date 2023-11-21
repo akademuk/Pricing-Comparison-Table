@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/main.css">
+    <title>Pricing Comparison Table</title>
+</head>
+
+<body>
+
+    <div class="pricing-table">
+        <h1>Ready to Choose Plan for Your Business?</h1>
+        <h2>Choose the package that best suit you</h2>
+
+        <!-- Перемикач -->
+        <div class="toggle">
+            <span>Monthly</span>
+            <label class="switch">
+                <input type="checkbox" id="toggle" onclick="toggleBilling()">
+                <!-- <span class="slider round"></span> -->
+                <span class="switch-circle"></span>
+            </label>
+            <span>Yearly</span>
+            <p>30% discount</p>
+        </div>
+
+        <!-- План підписки -->
+        <div class="pricing-box">
+            <div class="pricing-box_card">
+                <h3>Basic</h3>
+                <div class="price-box">
+                    <div>
+                        <p class="month">$9.99<span>/month</span></p>
+                        <p class="year">$99.99<span>/year</span></p>
+                    </div>
+                </div>
+                <div class="pricing-box_content">
+                    <p>Up to 10 Sites with CMS & HostingUp to 10 Sites with CMS & Hosting</p>
+                    <button class="basic-btn">Sign Up</button>
+                </div>
+                <ul>
+                    <li>
+                        <span>✔</span>
+                        15 Admin account
+                    </li>
+                    <li>
+                        <span>✔</span>
+                        30-day chat history
+                    </li>
+                    <li>
+                        <span class="not">✘</span>
+                        Email & SMS reminders
+                    </li>
+                    <li>
+                        <span class="not">✘</span>
+                        Email & chat support
+                    </li>
+                    <li>
+                        <span class="not">✘</span>
+                        Template Library
+                    </li>
+                    <li>
+                        <span class="not">✘</span>
+                        Professional Reporting
+                    </li>
+                </ul>
+            </div>
+
+            <div class="pricing-box_card">
+                <h3>Standard</h3>
+                <div class="price-box">
+                    <div>
+                        <p class="month">$19.99<span>/month</span></p>
+                        <p class="year">$199.99<span>/year</span></p>
+                    </div>
+                </div>
+                <div class="pricing-box_content">
+                    <p>Up to 10 Sites with CMS & HostingUp to 10 Sites with CMS & Hosting</p>
+                    <button class="standard-btn">Sign Up</button>
+                </div>
+                <ul>
+                    <li>
+                        <span>✔</span>
+                        30 Admin account
+                    </li>
+                    <li>
+                        <span>✔</span>
+                        Unlimited chat history
+                    </li>
+                    <li>
+                        <span>✔</span>
+                        Email & SMS reminders
+                    </li>
+                    <li>
+                        <span class="not">✘</span>
+                        Email & chat support
+                    </li>
+                    <li>
+                        <span class="not">✘</span>
+                        Template Library
+                    </li>
+                    <li>
+                        <span class="not">✘</span>
+                        Professional Reporting
+                    </li>
+                </ul>
+            </div>
+
+            <div class="pricing-box_card">
+                <h3>Premium</h3>
+                <div class="price-box">
+                    <div>
+                        <p class="month">$29.99<span>/month</span></p>
+                        <p class="year">$299.99<span>/year</span></p>
+                    </div>
+                </div>
+                <div class="pricing-box_content">
+                    <p>Up to 10 Sites with CMS & HostingUp to 10 Sites with CMS & Hosting</p>
+                    <button class="premium-btn">Sign Up</button>
+                </div>
+                <ul>
+                    <li>
+                        <span>✔</span>
+                        Unlimited Admin account
+                    </li>
+                    <li>
+                        <span>✔</span>
+                        Unlimited chat history
+                    </li>
+                    <li>
+                        <span>✔</span>
+                        Email & SMS reminders
+                    </li>
+                    <li>
+                        <span>✔</span>
+                        Email & chat support
+                    </li>
+                    <li>
+                        <span>✔</span>
+                        Template Library
+                    </li>
+                    <li>
+                        <span>✔</span>
+                        Professional Reporting
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        
+    </div>
+
+</body>
+<script src="script/toggleBilling.js"></script>
+
+</html>

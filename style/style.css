@@ -1,0 +1,145 @@
+
+.toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 32px;
+}
+
+.toggle span {
+    color: #263238;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.switch {
+    width: 32px;
+    height: 17px;
+    background: #56E6A5;
+    border-radius: 32px;
+    position: relative;
+}
+
+.switch input {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.switch-circle {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    background: #fff;
+    height: 13px;
+    width: 14px;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+input:checked+.switch-circle {
+    transform: translateX(14px);
+}
+
+.toggle p {
+    border-radius: 50px;
+    background: #FFE55A;
+    display: flex;
+    padding: 2px 10px;
+    align-items: flex-start;
+    gap: 10px;
+    color: #000;
+    font-size: 12px;
+    font-weight: 500;
+}
+.year {
+    display: none;
+}
+
+.pricing-box {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+.pricing-box_card {
+    width: calc(33.33% - 32px);
+    display: flex;
+    min-height: 576px;
+    padding: 41px 31px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 28px;
+    box-sizing: border-box;
+    border: 1px solid #616163;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+.pricing-box_card:hover {
+    background: #F0FFCF;
+    transition: all 0.5s ease;
+}
+.price-box {
+    width: 100%;
+}
+.pricing-box_content {
+    padding: 22px 0;
+    border-bottom: 1px solid #616163;
+    border-top: 1px solid #616163;
+}
+.pricing-box_content p {
+    color: #616163;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%; 
+    margin-bottom: 12px;
+}
+.price-box p {
+    color: #2D2423;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.pricing-box_card h3 {
+    color: #2D2423;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.price-box span {
+    color:#616163;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%; 
+}
+
+
+.pricing-box_card ul {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.pricing-box_card ul li {
+    display: flex;
+    align-content: center;
+    gap: 10px;
+    color: #616163;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+}
+.pricing-box_card ul li span{
+    width: 11px;
+    height: 11px;
+    color: #16C60C;
+}
+.not {
+    color: red !important;
+}
